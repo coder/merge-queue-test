@@ -1,6 +1,6 @@
 name: Merge Queue Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [merge_group]
+on: [merge_group, pull_request]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
