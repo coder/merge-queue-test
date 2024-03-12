@@ -1,0 +1,8 @@
+name: Merge Queue Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [merge_group]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ./dupenumbers.sh
