@@ -5,5 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ./dupenumbers.sh
+      - run: bash ${GITHUB_WORKSPACE}/dupenumbers.sh
         shell: bash
